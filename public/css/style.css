@@ -1,0 +1,42 @@
+.app-standard {
+	width: 980px;
+}
+
+.center-screen {
+	margin: 0 auto;
+}
+
+header {
+	height: 70px;
+	background: #000;
+}
+
+.header-logo {
+	height: inherit;
+}
+
+.nav-bar {
+	display: flex;
+	float: right;
+	margin-top: 15px;
+}
+
+.nav-bar > li {
+	width: 100px;
+	height: 40px;
+	margin-left: 10px;
+	line-height: 2.9em;
+	text-align: center;
+	background: #323232;
+	border-radius: 4px;
+}
+
+.nav-bar > li:hover {
+	cursor: pointer;
+	background: #4c4c4c;
+}
+
+.nav-bar > li > a {
+	color: #f2f2f2;
+	text-decoration: none;
+}
