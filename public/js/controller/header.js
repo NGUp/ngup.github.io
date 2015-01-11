@@ -6,4 +6,8 @@ package.controller.header = function($scope) {
 	$scope.visit110001NP = function() {
 		window.location.href = "#110001np";
 	}
+
+	$scope.goIndex = function() {
+		window.location.href = "/";
+	}
 }

@@ -13,6 +13,7 @@ header {
 
 .header-logo {
 	height: inherit;
+	cursor: pointer;
 }
 
 .nav-bar {
@@ -36,4 +37,53 @@ header {
 .nav-bar > li:hover {
 	cursor: pointer;
 	background: #4c4c4c;
+}
+
+.list-profiles {
+	margin-top: 30px;
+	list-style: none;
+}
+
+.profile {
+	width: 440px;
+	background: #323232;
+	border-radius: 4px;
+}
+
+.profile-avatar {
+	float: right;
+	height: 100px;
+	margin-top: 10px;
+	border-radius: 50px;
+}
+
+.profile-name {
+	color: #337ab7;
+}
+
+.profile-birthday {
+	color: #777;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+.profile-email {
+	color: #ddd;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+.profile-summary {
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.profile-summary-content {
+	background: #f2f2f2;
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	color: #323232;
+	border-radius: 4px;
+	text-align: justify;
 }

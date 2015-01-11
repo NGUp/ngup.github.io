@@ -4,6 +4,7 @@
 	<title>Never Give Up Team</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="Never Give Up Team" />
+	<link href="public/img/favicon.png" rel="shortcut icon">
 	<link rel="stylesheet" href="public/css/bootstrap.css" />
 	<link rel="stylesheet" href="public/css/bootstrap-theme.css" />
 	<link rel="stylesheet" href="public/css/style.css" />
@@ -11,7 +12,7 @@
 <body>
 	<header ng-controller="headerController">
 		<div class="app-standard center-screen">
-			<img src="public/img/logo.png" class="header-logo" alt="Never Give Up Logo" />
+			<img src="public/img/logo.png" class="header-logo" alt="Never Give Up Logo" ng-click="goIndex()" />
 			<ul class="nav-bar">
 				<li ng-click="visitHTTT()">HTTT</li>
 				<li ng-click="visit110001NP()">110001NP</li>
@@ -26,6 +27,7 @@
 	<script type="text/javascript">
 		var package = {};
 		package.controller = {};
+		package.directive = {};
 	</script>
 
 	<script src="public/js/jquery.js"></script>
@@ -37,6 +39,7 @@
 	<script src="public/js/controller/header.js"></script>
 	<script src="public/js/controller/teamHTTT.js"></script>
 	<script src="public/js/controller/team110001NP.js"></script>
+	<script src="public/js/directive/profile.js"></script>
 	<script src="public/js/script.js"></script>
 </body>
 </html>
