@@ -1,33 +1,30 @@
 <!DOCTYPE html>
-<html>
-	<head ng-app="ngup">
-		<title>Never Give Up Team</title>
-		<meta charset="utf-8" />
-		<meta name="description" content="Never Give Up Team" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css" />
-		<link rel="stylesheet" href="public/css/style.css" />
-	</head>
-	<body>
-		<header>
-			<div class="app-standard center-screen">
-				<img src="public/img/logo.png" class="header-logo" alt="Never Give Up Logo" />
-				<ul class="nav-bar">
-					<li><a href="#httt">HTTT</a></li>
-					<li><a href="#110001NP">110001NP</a></li>
-				</ul>
-			</div>
-		</header>
-
-		<div class="container">
-			<div ng-view></div>
+<html ng-app="ngup">
+<head>
+	<title>Never Give Up Team</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="Never Give Up Team" />
+	<link rel="stylesheet" href="public/css/bootstrap.css" />
+	<link rel="stylesheet" href="public/css/bootstrap-theme.css" />
+	<link rel="stylesheet" href="public/css/style.css" />
+</head>
+<body>
+	<header>
+		<div class="app-standard center-screen">
+			<img src="public/img/logo.png" class="header-logo" alt="Never Give Up Logo" />
+			<ul class="nav-bar">
+				<li><a href="#httt">HTTT</a></li>
+				<li><a href="#110001np">110001NP</a></li>
+			</ul>
 		</div>
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-route.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-		<script src="public/js/route.js"></script>
-		<script src="public/js/script.js"></script>
-	</body>
+	</header>
+	<div class="container">
+		<div ng-view></div>
+	</div>
+	<script src="public/js/jquery.js"></script>
+	<script src="public/js/angular.js"></script>
+	<script src="public/js/angular-route.js"></script>
+	<script src="public/js/bootstrap.js"></script>
+	<script src="public/js/script.js"></script>
+</body>
 </html>
