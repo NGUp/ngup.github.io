@@ -1,20 +1,5 @@
-var ngup = angular.module('ngup', ['ngRoute']);
-
-ngup.config(function($routeProvider) {
-    $routeProvider
-
-        .when('/', {
-            templateUrl : 'view/index.html',
-            controller  : 'mainController'
-        })
-
-        .when('/httt', {
-            templateUrl : 'view/httt.html',
-            controller  : 'aboutController'
-        })
-
-        .when('/110001np', {
-            templateUrl : 'view/110001np.html',
-            controller  : 'contactController'
-        });
-});
+angular.module('ngup', ['router'])
+    .controller("indexController", package.controller.index)
+    .controller("headerController", package.controller.header)
+    .controller("htttController", package.controller.teamHTTT)
+    .controller("110001npController", package.controller.team110001NP);

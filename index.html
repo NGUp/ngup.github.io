@@ -9,22 +9,34 @@
 	<link rel="stylesheet" href="public/css/style.css" />
 </head>
 <body>
-	<header>
+	<header ng-controller="headerController">
 		<div class="app-standard center-screen">
 			<img src="public/img/logo.png" class="header-logo" alt="Never Give Up Logo" />
 			<ul class="nav-bar">
-				<li><a href="#httt">HTTT</a></li>
-				<li><a href="#110001np">110001NP</a></li>
+				<li ng-click="visitHTTT()">HTTT</li>
+				<li ng-click="visit110001NP()">110001NP</li>
 			</ul>
 		</div>
 	</header>
+
 	<div class="container">
 		<div ng-view></div>
 	</div>
+
+	<script type="text/javascript">
+		var package = {};
+		package.controller = {};
+	</script>
+
 	<script src="public/js/jquery.js"></script>
 	<script src="public/js/angular.js"></script>
 	<script src="public/js/angular-route.js"></script>
 	<script src="public/js/bootstrap.js"></script>
+	<script src="public/js/config/router.js"></script>
+	<script src="public/js/controller/index.js"></script>
+	<script src="public/js/controller/header.js"></script>
+	<script src="public/js/controller/teamHttt.js"></script>
+	<script src="public/js/controller/team110001NP.js"></script>
 	<script src="public/js/script.js"></script>
 </body>
 </html>
