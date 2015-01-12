@@ -64,6 +64,7 @@ header {
 
 .profile-avatar:hover {
 	border-radius: 4px;
+	cursor: pointer;
 }
 
 .profile-name {

@@ -6,8 +6,11 @@ package.directive.profile = function() {
 			birthday: '@',
 			avatar: '@',
 			summary: '@',
-			email: '@'
+			email: '@',
+			link: '@',
+			visitHomePage: '@'
 		},
+		controller: package.controller.team110001NP,
 		replace: true,
 		restrict: 'E',
 		templateUrl: 'view/profile.html'
