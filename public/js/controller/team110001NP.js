@@ -1,7 +1,5 @@
-package.controller.team110001NP = function($scope) {
-	console.log("110001NP");
-
+package.controller.team110001NP = function($scope, $location) {
 	$scope.visitHomePage = function() {
-		console.log($scope.link);
+		window.location.href = $scope.link;
 	}
 }

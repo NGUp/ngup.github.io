@@ -11,8 +11,5 @@ angular.module('router', ['ngRoute'])
             })
             .when('/110001np', {
                 templateUrl : 'view/110001np.html'
-            })
-            .otherwise('/');
-
-        $locationProvider.html5Mode(true);
+            });
     })
