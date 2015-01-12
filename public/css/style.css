@@ -39,13 +39,17 @@ header {
 	background: #4c4c4c;
 }
 
+.content {
+	width: 440px;
+	margin: 0 auto;
+}
+
 .list-profiles {
 	margin-top: 30px;
 	list-style: none;
 }
 
 .profile {
-	width: 440px;
 	background: #323232;
 	border-radius: 4px;
 }
@@ -55,6 +59,11 @@ header {
 	height: 100px;
 	margin-top: 10px;
 	border-radius: 50px;
+	transition: border-radius 0.5s ease;
+}
+
+.profile-avatar:hover {
+	border-radius: 4px;
 }
 
 .profile-name {
@@ -80,7 +89,7 @@ header {
 
 .profile-summary-content {
 	background: #f2f2f2;
-	width: 90%;
+	width: 94%;
 	margin: 0 auto;
 	padding: 10px;
 	color: #323232;
