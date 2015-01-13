@@ -24,6 +24,17 @@
 		<div ng-view></div>
 	</div>
 
+	<footer ng-controller="footerController">
+		<div class="app-standard center-screen">
+			<div class="footer-copyright">
+				<label>Never Give Up's Team © {{currentYear}}</label>
+			</div>
+			<div class="footer-designed-by">
+				<h4><small>DESIGNED BY </small>Võ Hoài Nam</h4>
+			</div>
+		</div>
+	</footer>
+
 	<script type="text/javascript">
 		var package = {};
 		package.controller = {};
@@ -38,6 +49,7 @@
 	<script src="public/js/config/router.js"></script>
 	<script src="public/js/controller/index.js"></script>
 	<script src="public/js/controller/header.js"></script>
+	<script src="public/js/controller/footer.js"></script>
 	<script src="public/js/controller/profile.js"></script>
 	<script src="public/js/controller/teamHTTT.js"></script>
 	<script src="public/js/controller/team110001NP.js"></script>
