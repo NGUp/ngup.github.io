@@ -1,5 +1,13 @@
-<div class="content" data-ng-controller="htttController">
-	<ul class="list-profiles">
+<section class="content" data-ng-controller="htttController">
+	<article class="article">
+		<h3>Tiểu sử</h3>
+		<p>
+			"HTTT" được ghép từ chữ cái đầu của 4 thành viên (Hiệp - Thảo - Tín - Tú).
+		</p>
+	</article>
+	<article class="article">
+		<h3>Danh sách thành viên</h3>
+		<ul class="list-profiles">
 		<li data-ng-repeat="person in teamHTTT">
 			<profile id="{{person.id}}"
 				name="{{person.name}}"
@@ -12,4 +20,5 @@
 				data-ng-class-even="'tab'"></profile>
 		</li>
 	</ul>
-</div>
+	</article>
+</section>
