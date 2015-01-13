@@ -6,12 +6,20 @@
 	margin: 0 auto;
 }
 
+.center {
+	text-align: center;
+}
+
 .left {
 	float: left;
 }
 
 .right {
 	float: right;
+}
+
+.bold {
+	font-weight: 700;
 }
 
 header {
@@ -130,4 +138,17 @@ footer {
 	color: #323232;
 	border-radius: 4px;
 	text-align: justify;
+}
+
+.cell-image {
+	padding: 10px;
+}
+
+.index-content {
+	width: 820px;
+	text-align: justify;
+}
+
+.article {
+	margin-top: 20px;
 }
