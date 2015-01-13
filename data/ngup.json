@@ -14,7 +14,7 @@
 			"name": "Võ Hoài Nam",
 			"birthday" : "25/04/1994",
 			"avatar" : "vhnam.jpg",
-			"summary" : "Biết chơi 3 loại nhạc cụ gồm trumpet, động tiêu và harmonica. Sở trường là web, thích ngôn ngữ JavaScript. Dễ nổi nóng mỗi khi có bug và trong thời gian làm đồ án.",
+			"summary" : "Biết chơi 3 loại nhạc cụ gồm trumpet, động tiêu và harmonica. Sở trường là Web, thích ngôn ngữ JavaScript. Dễ nổi nóng mỗi khi có bug và trong thời gian làm đồ án.",
 			"email" : "vhnam2504@gmail.com",
 			"link" : "http://vhnam.github.io/"
 		},
@@ -43,7 +43,7 @@
 			"name": "Hoàng Ngọc Hiệp",
 			"birthday" : "07/05/1994",
 			"avatar" : "hnhiep.jpg",
-			"summary" : "Silent is the best",
+			"summary" : "Nhìn thấy im im nhưng làm việc rất siêng năng, hòa đồng với mọi người. Không có sở trường vì Web hay Windows Form đều làm được. Mong muốn đi theo mảng di động Android.",
 			"email" : "hoangngochiep1265009@gmail.com",
 			"link" : "https://www.facebook.com/profile.php?id=100004452254295"
 		},
@@ -52,7 +52,7 @@
 			"name": "Nguyễn Thị Bích Thảo",
 			"birthday" : "03/11/1994",
 			"avatar" : "ntbthao.jpg",
-			"summary" : "Princess",
+			"summary" : "Công chúa của nhóm. Nếu bạn có cần người tâm sự thì liên hệ công chúa. Sở trường là làm \"màu\" từ giao diện, source code cho tới cơ sở dữ liệu. Mong muốn được làm công việc liên quan tới giao tiếp, thiết kế trong CNTT.",
 			"email" : "ninhninhs2@gmail.com",
 			"link" : "https://www.facebook.com/KeoSuas2"
 		},
@@ -61,7 +61,7 @@
 			"name": "Phạm Chung Tú",
 			"birthday" : "31/08/1994",
 			"avatar" : "pctu.jpg",
-			"summary" : "Like a manager",
+			"summary" : "Hay la, lải nhải nhưng chịu làm. Đôi lúc thì \"cứng đầu\" với cái mới. Sở trường Windows Form và là fan cuồng của hãng Microsoft.",
 			"email" : "chungtu3108@yahoo.com.vn",
 			"link" : "https://www.facebook.com/tuxuong98083"
 		},
@@ -70,7 +70,7 @@
 			"name": "Tô Chính Tín",
 			"birthday" : "13/12/1994",
 			"avatar" : "tctin.jpg",
-			"summary" : "Gamer",
+			"summary" : "Tính toán tốt, chơi game cũng nhiều, làm việc có hiệu quả nhưng mỗi tội phải có hứng mới làm được. Sở trường là Windows Form. Nếu có dính bug thì hắn chịu khó fix bug.",
 			"email" : "thienthientan.tin@gmail.com",
 			"link" : "https://www.facebook.com/kawashin.hajime.7"
 		}
