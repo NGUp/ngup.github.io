@@ -10,6 +10,7 @@ angular.module('router', ['ngRoute'])
                 controller  : 'htttController'
             })
             .when('/110001np', {
-                templateUrl : 'view/110001np.html'
+                templateUrl : 'view/110001np.html',
+                controller  : '110001npController'
             });
     })

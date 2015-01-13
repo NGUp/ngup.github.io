@@ -1,13 +1,15 @@
-<div class="content">
+<div class="content" ng-controller="110001npController">
 	<ul class="list-profiles">
-		<li>
-			<profile name="Võ Hoài Nam"
-				id="1265094"
-				birthday="25/04/1994"
-				avatar="vhnam.jpg"
-				email="namvh@penlook.com"
-				link="https://www.google.com.vn/"
-				summary="Eat, sleep and code"></profile>
+		<li ng-repeat="person in people">
+			<profile id="{{person.id}}"
+				name="{{person.name}}"
+				birthday="{{person.birthday}}"
+				avatar="{{person.avatar}}"
+				summary="{{person.summary}}"
+				email="{{person.email}}"
+				link="{{person.link}}"
+				visitHomePage="visitHomePage()"
+				ng-class-even="'tab'"></profile>
 		</li>
 	</ul>
 </div>

@@ -10,7 +10,7 @@ package.directive.profile = function() {
 			link: '@',
 			visitHomePage: '@'
 		},
-		controller: package.controller.team110001NP,
+		controller: package.controller.profile,
 		replace: true,
 		restrict: 'E',
 		templateUrl: 'view/profile.html'

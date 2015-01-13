@@ -1,0 +1,40 @@
+{
+	"team110001NP" : [
+		{
+			"id" : "1265020",
+			"name": "Nguyễn Thành Nhân",
+			"birthday" : "22/06/1994",
+			"avatar" : "ntnhan.jpg",
+			"summary" : "Love Boardgame",
+			"email" : "theredlion1994@gmail.com",
+			"link" : "https://www.facebook.com/MagicPro1994"
+		},
+		{
+			"id" : "1265094",
+			"name": "Võ Hoài Nam",
+			"birthday" : "25/04/1994",
+			"avatar" : "vhnam.jpg",
+			"summary" : "Trumpet Solist",
+			"email" : "vhnam2504@gmail.com",
+			"link" : "http://vhnam.github.io/"
+		},
+		{
+			"id" : "1265095",
+			"name": "Nguyễn Thị Thủy Ngân",
+			"birthday" : "05/02/1994",
+			"avatar" : "nttngan.jpg",
+			"summary" : "Eat and Sleep",
+			"email" : "nttngan2512@gmail.com",
+			"link" : "https://www.facebook.com/nttngan"
+		},
+		{
+			"id" : "1265104",
+			"name": "Huỳnh Chí Phong",
+			"birthday" : "19/10/1994",
+			"avatar" : "hcphong.jpg",
+			"summary" : "Game Developer",
+			"email" : "phong_huynh1994@yahoo.com.vn",
+			"link" : "https://www.facebook.com/huynh.chiphong.7"
+		}
+	]
+}
