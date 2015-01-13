@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="ngup">
+<html data-ng-app="ngup">
 <head>
 	<title>Never Give Up Team</title>
 	<meta charset="utf-8" />
@@ -10,21 +10,21 @@
 	<link rel="stylesheet" href="public/css/style.css" />
 </head>
 <body>
-	<header ng-controller="headerController">
+	<header data-ng-controller="headerController">
 		<div class="app-standard center-screen">
-			<img src="public/img/logo.png" class="header-logo" alt="Never Give Up Logo" ng-click="goIndex()" />
+			<img src="public/img/logo.png" class="header-logo" alt="Never Give Up Logo" data-ng-click="goIndex()" />
 			<ul class="nav-bar nav-teams">
-				<li ng-click="visitHTTT()">HTTT</li>
-				<li ng-click="visit110001NP()">110001NP</li>
+				<li data-ng-click="visitHTTT()">HTTT</li>
+				<li data-ng-click="visit110001NP()">110001NP</li>
 			</ul>
 		</div>
 	</header>
 
 	<div class="container">
-		<div ng-view></div>
+		<div data-ng-view></div>
 	</div>
 
-	<footer ng-controller="footerController">
+	<footer data-ng-controller="footerController">
 		<div class="app-standard center-screen">
 			<div class="footer-copyright">
 				<label>Never Give Up's Team © {{currentYear}}</label>

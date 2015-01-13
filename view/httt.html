@@ -1,6 +1,6 @@
-<div class="content" ng-controller="htttController">
+<div class="content" data-ng-controller="htttController">
 	<ul class="list-profiles">
-		<li ng-repeat="person in teamHTTT">
+		<li data-ng-repeat="person in teamHTTT">
 			<profile id="{{person.id}}"
 				name="{{person.name}}"
 				birthday="{{person.birthday}}"
@@ -9,7 +9,7 @@
 				email="{{person.email}}"
 				link="{{person.link}}"
 				visitHomePage="visitHomePage()"
-				ng-class-even="'tab'"></profile>
+				data-ng-class-even="'tab'"></profile>
 		</li>
 	</ul>
 </div>
