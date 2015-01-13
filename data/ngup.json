@@ -36,5 +36,43 @@
 			"email" : "phong_huynh1994@yahoo.com.vn",
 			"link" : "https://www.facebook.com/huynh.chiphong.7"
 		}
+	],
+	"teamHTTT" : [
+		{
+			"id" : "1265009",
+			"name": "Hoàng Ngọc Hiệp",
+			"birthday" : "07/05/1994",
+			"avatar" : "hnhiep.jpg",
+			"summary" : "Silent is the best",
+			"email" : "hoangngochiep1265009@gmail.com",
+			"link" : "https://www.facebook.com/profile.php?id=100004452254295"
+		},
+		{
+			"id" : "1265028",
+			"name": "Nguyễn Thị Bích Thảo",
+			"birthday" : "03/11/1994",
+			"avatar" : "ntbthao.jpg",
+			"summary" : "Princess",
+			"email" : "ninhninhs2@gmail.com",
+			"link" : "https://www.facebook.com/KeoSuas2"
+		},
+		{
+			"id" : "1265037",
+			"name": "Phạm Chung Tú",
+			"birthday" : "31/08/1994",
+			"avatar" : "pctu.jpg",
+			"summary" : "Like a manager",
+			"email" : "chungtu3108@yahoo.com.vn",
+			"link" : "https://www.facebook.com/tuxuong98083"
+		},
+		{
+			"id" : "1265033",
+			"name": "Tô Chính Tín",
+			"birthday" : "13/12/1994",
+			"avatar" : "tctin.jpg",
+			"summary" : "Gamer",
+			"email" : "thienthientan.tin@gmail.com",
+			"link" : "https://www.facebook.com/kawashin.hajime.7"
+		}
 	]
 }
