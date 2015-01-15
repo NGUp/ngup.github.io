@@ -60,10 +60,10 @@ footer {
 	height: 40px;
 	margin-left: 10px;
 	line-height: 2.9em;
+	color: #f2f2f2;
 	text-align: center;
 	background-color: #323232;
 	border-radius: 4px;
-	color: #f2f2f2;
 	transition: background-color 0.3s ease;
 }
 
@@ -107,30 +107,30 @@ footer {
 }
 
 .profile-id-birthday {
-	color: #777;
 	font-size: 15px;
 	font-weight: 100;
+	color: #777;
 }
 
 .profile-email {
-	color: #ddd;
 	font-size: 15px;
 	font-weight: 100;
+	color: #ddd;
 }
 
 .profile-summary {
-	margin-top: 10px;
 	padding-bottom: 10px;
+	margin-top: 10px;
 }
 
 .profile-summary-content {
-	background-color: #f2f2f2;
 	width: 94%;
-	margin: 0 auto;
 	padding: 10px;
+	margin: 0 auto;
 	color: #323232;
-	border-radius: 4px;
 	text-align: justify;
+	background-color: #f2f2f2;
+	border-radius: 4px;
 }
 
 .cell-image {
@@ -147,20 +147,21 @@ footer {
 }
 
 .avatar {
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: 27px;
 	background-color: #f2f2f2;
-	background-size: 200px 400px;
 	background-image: url("/public/img/avatar.jpg");
 	background-repeat: no-repeat;
-	margin-left: 27px;
-	margin-top: 10px;
+	background-size: 200px 400px;
 	border-radius: 50px;
-	height: 100px;
 	transition: border-radius 0.5s ease;
 }
 
 .avatar:hover {
-	border-radius: 4px;
 	cursor: pointer;
+	border-radius: 4px;
 }
 
 .avatar-hcphong {
