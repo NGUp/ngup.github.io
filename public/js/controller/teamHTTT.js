@@ -7,10 +7,10 @@ package.controller.teamHTTT = function($scope) {
 		// For first page load
 		$scope.teamHTTT = package.team.teamHTTT;
 		$scope.team110001NP = package.team.team110001NP;
-    }).error(function(data) {
-    	console.log(data);
-    });
+	}).error(function(data) {
+		console.log(data);
+	});
 
-    // Initialize for ngRepeat
-    $scope.teamHTTT = package.team.teamHTTT;
-}
+	// Initialize for ngRepeat
+	$scope.teamHTTT = package.team.teamHTTT;
+};

@@ -1,2 +1,2 @@
-package.controller.profile = function($scope, $location) {
-}
+package.controller.profile = function($scope) {
+};

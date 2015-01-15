@@ -1,5 +1,5 @@
 angular.module('router', ['ngRoute'])
-    .config(function($routeProvider, $locationProvider) {
+    .config(function($routeProvider) {
         $routeProvider
             .when('/', {
                 templateUrl : 'view/index.html',
@@ -13,4 +13,4 @@ angular.module('router', ['ngRoute'])
                 templateUrl : 'view/110001np.html',
                 controller  : '110001npController'
             });
-    })
+    });
