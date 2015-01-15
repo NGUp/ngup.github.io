@@ -3,12 +3,11 @@ package.directive.profile = function() {
 		scope: {
 			name: '@',
 			id: '@',
+			alias: '@',
 			birthday: '@',
-			avatar: '@',
 			summary: '@',
 			email: '@',
-			link: '@',
-			visitHomePage: '@'
+			link: '@'
 		},
 		controller: package.controller.profile,
 		replace: true,
