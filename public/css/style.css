@@ -24,7 +24,7 @@
 
 header {
 	height: 70px;
-	background: #000;
+	background-color: #000;
 }
 
 .header-logo {
@@ -36,7 +36,7 @@ footer {
 	height: 50px;
 	margin-top: 30px;
 	color: #ddd;
-	background: #000;
+	background-color: #000;
 }
 
 .footer-copyright {
@@ -61,14 +61,19 @@ footer {
 	margin-left: 10px;
 	line-height: 2.9em;
 	text-align: center;
-	background: #323232;
+	background-color: #323232;
 	border-radius: 4px;
 	color: #f2f2f2;
+	transition: background-color 0.3s ease;
 }
 
 .nav-bar > li:hover {
 	cursor: pointer;
-	background: #4c4c4c;
+	background-color: #4c4c4c;
+}
+
+.nav-bar > li:active {
+	background-color: #232323;
 }
 
 .nav-teams {
@@ -88,25 +93,13 @@ footer {
 .profile {
 	width: 440px;
 	margin-top: 30px;
-	background: #323232;
+	background-color: #323232;
 	border-radius: 4px;
+	box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.25);
 }
 
 .tab {
 	margin-left: 200px;
-}
-
-.profile-avatar {
-	float: right;
-	height: 100px;
-	margin-top: 10px;
-	border-radius: 50px;
-	transition: border-radius 0.5s ease;
-}
-
-.profile-avatar:hover {
-	border-radius: 4px;
-	cursor: pointer;
 }
 
 .profile-name {
@@ -131,7 +124,7 @@ footer {
 }
 
 .profile-summary-content {
-	background: #f2f2f2;
+	background-color: #f2f2f2;
 	width: 94%;
 	margin: 0 auto;
 	padding: 10px;
@@ -162,6 +155,12 @@ footer {
 	margin-top: 10px;
 	border-radius: 50px;
 	height: 100px;
+	transition: border-radius 0.5s ease;
+}
+
+.avatar:hover {
+	border-radius: 4px;
+	cursor: pointer;
 }
 
 .avatar-hcphong {
