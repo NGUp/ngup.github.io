@@ -1,5 +1,10 @@
+body {
+	min-width: 400px;
+}
+
 .app-standard {
 	width: 980px;
+	height: inherit;
 }
 
 .center-screen {
@@ -143,6 +148,7 @@ footer {
 }
 
 .article {
+	width: inherit;
 	margin-top: 20px;
 }
 
@@ -194,4 +200,81 @@ footer {
 
 .avatar-vhnam {
 	background-position: -100px -300px !important;
+}
+
+.post-story {
+	width: inherit;
+	text-align: justify;
+}
+
+@media all and (max-width: 980px) and (min-width: 646px) {
+	.avatar {
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+
+	.app-standard {
+		width: auto;
+	}
+
+	footer {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.avatar {
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+
+	.profile {
+		text-align: center;
+	}
+
+	.content {
+		width: inherit;
+	}
+}
+
+@media all and (max-width: 645px) and (min-width: 480px) {
+	header {
+		height: 34px;
+	}
+
+	footer {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.app-standard {
+		width: auto;
+	}
+
+	.avatar {
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+
+	.nav-teams {
+		width: 210px;
+		padding-right: 5px;
+		margin-top: 3px;
+	}
+
+	.nav-bar > li {
+		height: 28px;
+		line-height: 2em;
+	}
+
+	.profile {
+		text-align: center;
+	}
+
+	.tab {
+		margin-left: 0;
+	}
+
+	.content {
+		width: inherit;
+	}
 }
